@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream11 - Fantasy Sports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body{
+        background-color: rgb(237, 237, 84);
+    }
+    </style>
+</body>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dream11</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sports">Sports</a></li>
+                    <li><a href="#how-it-works">How it Works</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#register">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Dream11</h2>
+            <p>Experience the thrill of fantasy sports. Pick your dream team and win!</p>
+        </div>
+    </section>
+
+    <section id="sports">
+        <div class="container">
+            <h2>Popular Sports</h2>
+            <div class="sports-list">
+                <div class="sport-item">
+                    <h3>Cricket</h3>
+                    <img src="https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=" width="100" height="=100" alt="Cricket">
+                    <p>Choose your players from upcoming matches.</p>
+                </div>
+                <div class="sport-item">
+                    <h3>Football</h3>
+                    <img src="https://st.depositphotos.com/1000423/3050/i/450/depositphotos_30508563-stock-photo-two-football-player.jpg" width="100" height="100" alt="Football">
+                    <p>Create your fantasy team and score points based on real match performance.</p>
+                </div>
+                <!-- Add more sports as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p>Learn how to play and win with Dream11:</p>
+            <ul>
+                <li>Choose a match</li>
+                <li>Create your dream team</li>
+                <li>Join contests</li>
+                <li>Earn points based on player performance</li>
+                <li>Win cash prizes!</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="login">
+        <div class="container">
+            <h2>Login to Your Account</h2>
+            <form action="login.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="register">
+        <div class="container">
+            <h2>Register for Dream11</h2>
+            <form action="register.php" method="POST">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="newusername">Choose Username:</label>
+                <input type="text" id="newusername" name="newusername" required>
+                <label for="newpassword">Choose Password:</label>
+                <input type="password" id="newpassword" name="newpassword" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dream11. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
